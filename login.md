@@ -14,11 +14,10 @@ PetaLinux 2022.2_release_S10071807 zynqmp-common-2022-2 ttyPS0
 
 zynqmp-common-2022-2 login: root (automatic login)
 
-root@zynqmp-common-2022-2:~# su petalinux 
+root@zynqmp-common-2022-2:~# su - petalinux
 You are required to change your password immediately (administrator enforced).
 su: Authentication token is no longer valid; new one required
 (Ignored)
-petalinux@zynqmp-common-2022-2:/home/root$ cd 
 petalinux@zynqmp-common-2022-2:~$ pwd 
 /home/petalinux
 petalinux@zynqmp-common-2022-2:~$

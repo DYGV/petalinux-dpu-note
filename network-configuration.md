@@ -16,6 +16,6 @@ Gateway=192.168.0.1
   
 また、複数のFPGAボードでpetalinuxを使用する時はMACアドレスが重複する場合があるので、その時は以下の方法で変更する。  
 ```
-sudo sh -c 'echo "ethaddr=02:11:44:33:44:55" >> /run/media/mmcblk0p1/uEnv.txt'
+sudo sh -c 'echo "ethaddr=00:5d:03:11:22:33" >> /run/media/mmcblk0p1/uEnv.txt'
 sudo reboot # 再起動しMACアドレスが変更されたか確認する
 ```
